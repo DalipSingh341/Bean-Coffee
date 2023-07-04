@@ -28,7 +28,14 @@ btn.on("click", function (e) {
 });
 
 
-
+// ===============
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 100) {
+    $("#dynamic").addClass("newClass");
+  } else {
+    $("#dynamic").removeClass("newClass");
+  }
+});
 // scroll//
 $(window).scroll(function () {
   if ($(this).scrollTop() > 100) {
