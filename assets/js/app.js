@@ -27,16 +27,7 @@ btn.on("click", function (e) {
   $("html, body").animate({ scrollTop: 0 }, "300");
 });
 
-// // pre-loader//
-setTimeout(() => {
-  const box = document.getElementById("box");
 
-  box.style.display = "none";
-
-  document.body.classList.remove("overflow-hidden");
-}, 1000);
-
-var btn = $("#button");
 
 // scroll//
 $(window).scroll(function () {

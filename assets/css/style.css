@@ -71,18 +71,6 @@ html {
     color: #ffffff;
   }
 }
-/* preloader */
-.preloader-box {
-  min-height: 100vh;
-  width: 100%;
-  top: 0;
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  background-color: #452908;
-  position: fixed;
-  z-index: 1000;
-}
 
 #button {
   display: inline-block;
