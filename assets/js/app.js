@@ -28,15 +28,15 @@ btn.on("click", function (e) {
 });
 
 // // pre-loader//
-// setTimeout(() => {
-//   const box = document.getElementById("box");
+setTimeout(() => {
+  const box = document.getElementById("box");
 
-//   box.style.display = "none";
+  box.style.display = "none";
 
-//   document.body.classList.remove("overflow-hidden");
-// }, 1000);
+  document.body.classList.remove("overflow-hidden");
+}, 1000);
 
-// var btn = $("#button");
+var btn = $("#button");
 
 // scroll//
 $(window).scroll(function () {
